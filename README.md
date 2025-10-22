@@ -1,5 +1,15 @@
-Data Engineering project following the Medallion Architecture. 
-Excel/CSV source files ingested to Bronze layer on Databricks catalog.
-Data from Bronze is transformed using automated helper functions described on utils.py. Upsert logic with timestamp.
-DBT to ingest Silver layer from Databricks to add Slowly Changing Dimensions logic and revert the data to Gold layer on Databricks.
-Gold layer used to draw meaningful insights on the processed and cleaned data.
+Welcome to your new dbt project!
+
+### Using the starter project
+
+Try running the following commands:
+- dbt run
+- dbt test
+
+
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
